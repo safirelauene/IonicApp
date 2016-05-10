@@ -68,11 +68,13 @@
         
         <!-- CONTROLLER -->
         <script type="application/javascript" src="js/controller/app_controller.js"></script>
+        <!-- ROUTERS -->
+        <script type="application/javascript" src="js/routers/app_routers.js"></script>
         
     </head>
 
-    <body ng-app="myApp" ng-controller="initCtrl">
-        <h1>{{home}}</h1>
+    <body ng-app="myApp" >
+        <ion-nav-view></ion-nav-view>
         
     </body>
 
