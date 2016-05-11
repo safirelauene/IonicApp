@@ -13,9 +13,19 @@
         
         .state("menu.home",{
             url: "/home",
-            viwes:{
+            views:{
                 'menuContent':{
                     templateUrl:"views/home.html"    
+                }
+            }
+            
+        })
+        
+        .state("menu.perfil",{
+            url: "/perfil",
+            views:{
+                'menuContent':{
+                    templateUrl:"views/perfil.html"    
                 }
             }
             
